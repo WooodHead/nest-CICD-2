@@ -24,6 +24,6 @@ jobs:
           aws_secret_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           application_name: nest-server
           environment_name: Nestserver-env
-          version_label: first-build 2
+          version_label: first-build 3
           region: ap-northeast-2
           deployment_package: deploy.zip
